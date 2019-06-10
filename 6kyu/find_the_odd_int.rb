@@ -5,7 +5,7 @@ def find_it(seq)
   
     return counts.select { |k, v|  v % 2 != 0 }.keys.join.to_i
     
-  end
+end
   
   # refactored from :
   
